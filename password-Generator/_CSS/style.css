@@ -1,10 +1,14 @@
 *{
+
     font-family: sans-serif;
     width: 100%;
     margin: 0 auto;
+    
 }
 
+
 body{
+
     color: white;
     background-color: black;
     width: 100%;
@@ -12,21 +16,30 @@ body{
     display: flex;
     justify-content: center;
     flex-direction: column;
+
 }
 
 
 h1{
+
     outline: auto;
     text-align: center;
-    outline-color: #000
+    outline-color: #000;
+
 }
+
+
 .logo{
+
     max-width: 480px;
     max-height: 480px;
     margin-bottom: 25px;
+
 }
 
+
 .slider{
+
     appearance: round;
     background: rgb(179, 177, 177);
     width: 100%;
@@ -37,22 +50,29 @@ h1{
     outline-color: blueviolet;
 }
 
+
 .containet-input{
+
     max-width: 480px;
     font-size: 25px;
     margin-bottom: 25px;
+
 }
+
+
 .containet-input span{
+
     color: white;
     font-size: 25px;
 }
 
 
-
 .slider:hover{
+
     opacity: 1;
     
 }
+
 
 .slider::-webkit-slider-thumb{
     -webkit-appearance: none;
@@ -62,6 +82,7 @@ h1{
     background: #000;
     cursor: grab;
 }
+
 
 .button-cta{
     
@@ -90,7 +111,9 @@ h1{
       0 0 42px #A020F0,
       0 0 82px #A020F0,
       0 0 151px #A020F0;
+
 }
+
 
 .conteiner-password{
 
@@ -98,13 +121,16 @@ h1{
    display: flex;
    align-items: center;
    flex-direction: column;
+
 }
+
 
 .title{
 
     text-align: center;
     font-size: 25px;
 }
+
 
 .password{
 
@@ -118,7 +144,9 @@ h1{
     font-size: 25px;
     transform: scale(1.00);
     transition: transform 0.5s;
+
 }
+
 
 .password:hover{
 
@@ -132,6 +160,7 @@ h1{
       0 0 42px #A020F0,
       0 0 82px #A020F0,
       0 0 151px #A020F0;
+
 }
 
 
@@ -146,6 +175,7 @@ h1{
 
 }
 
+
 .conteiner-password:hover .tooltip{
 
     visibility: visible;
@@ -153,9 +183,9 @@ h1{
 }
 
 .hide{
-
     display: none;
 }
+
 
 .neon-text{
 
